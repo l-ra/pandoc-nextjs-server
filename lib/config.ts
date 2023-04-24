@@ -1,8 +1,9 @@
 import { IScrapboxOptions } from "./scrapbox";
 
 export default {
-  uploadDir: "uploads",
+  uploadDir: "/uploads",
   formats: [
+    { id: "AsciiDoc (.adoc)", value: "asciidoc", mime: "text/plain" },
     { id: "Adobe PDF (.pdf)", value: "pdf", mime: "application/pdf" },
     { id: "HTML (.html)", value: "html", mime: "text/html" },
     {
